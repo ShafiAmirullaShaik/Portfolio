@@ -21,7 +21,7 @@ const About = () => {
                         <BsPersonVideo3 className='text-9xl text-neutral-400 text-justify' />
                     </div>
                 </motion.div>
-                <motion.div whileInView={{opacity:1, x : 0}} initial={{x : -100, opacity : 0}} transition={{duration:0.5}}  
+                <motion.div whileInView={{opacity:1, x : 0}} initial={{x : 100, opacity : 0}} transition={{duration:0.5}}  
                 className='w-full lg:w-1/2'>
                     <div className='flex justify-center lg:justify-start'>
                         <p className='my-2 max-w-xl py-6 font-light tracking-tighther'>{ABOUT_TEXT}</p>
