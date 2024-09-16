@@ -19,10 +19,10 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="text-center tracking-tighter"
       >
-        <p className="my-4 font-thin">{CONTACT.address}</p>
-        <p className="font-thin">{CONTACT.phoneNo}</p>
+        <p className="my-4 font-thin">Hyderabad | Telangana</p>
+        <p className="font-thin">+916281199239</p>
         <a href="" className="border-b border-blue-400 font-thin text-blue-400">
-          {CONTACT.email}
+          shafi004shaik@gmail.com
         </a>
       </motion.div>
     </div>
