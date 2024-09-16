@@ -7,6 +7,8 @@
     font-family: "Inter", sans-serif;
 }
 
-::selection{
+::selection {
     color: cyan;
 }
+
+

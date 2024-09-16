@@ -8,7 +8,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoLogoPython } from "react-icons/io5";
 import { DiMsqlServer } from "react-icons/di";
 import { FaRobot } from "react-icons/fa6";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import { useLightDarkMode } from '../context/LightDarkMode';
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -24,19 +25,22 @@ const iconVariants = (duration) => ({
 })
 
 const Technologies = () => {
+
+    const {isLight} = useLightDarkMode();
+
     return (
-        <div className='border-b border-neutral-800 pb-24 '>
+        <div className={`border-b ${!isLight ? 'text-neutral-300 border-neutral-900' : 'text-black border-neutral-300'} pb-4`}>
             <motion.h2 
             whileInView={{opacity : 1, y : 0}}
             initial = {{opacity : 0, y : -100}}
             transition={{duration : 1.5}}
-            className='my-20 text-center text-4xl font-thin'>
+            className={`my-20 text-center text-4xl ${!isLight ? 'text-neutral-400 font-thin' : 'text-black font-light'}`}>
                 Technologies
             </motion.h2>
             <motion.div whileInView = {{opacity : 1, x : 0}}
             initial = {{opacity : 0, x : -100}}
             transition = {{duration : 1.5}}
-            className='flex flex-wrap items-center justify-center gap-4'>
+            className='flex flex-wrap items-center justify-center gap-4 mb-5'>
                 <motion.div
                     variants={iconVariants(2.5)}
                     initial="initial"
