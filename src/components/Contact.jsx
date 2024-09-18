@@ -25,7 +25,7 @@ const Contact = () => {
       >
         <p className={`my-4 ${!isLight ? 'font-thin text-white' : 'text-black font-light'}`}>Hyderabad | Telangana</p>
         <p className={`my-4 ${!isLight ? 'font-thin text-white' : 'text-black font-light'}`}>+916281199239</p>
-        <a href="" className={`border-b ${!isLight ? 'border-blue-400 font-thin text-blue-400' : 'border-blue-600 font-light text-blue-600'
+        <a className={`border-b ${!isLight ? 'border-blue-400 font-thin text-blue-400' : 'border-blue-600 font-light text-blue-600'
         } `}>
           shafi004shaik@gmail.com
         </a>
