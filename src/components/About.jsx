@@ -3,15 +3,20 @@ import React from "react";
 import { ABOUT_TEXT } from "../constants";
 import { BsPersonVideo3 } from "react-icons/bs";
 import { motion } from "framer-motion";
+import { useLightDarkMode } from '../context/LightDarkMode';
+
 
 const About = () => {
+
+  const { isLight } = useLightDarkMode();
+
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className={`border-b ${!isLight ? 'text-neutral-300 border-neutral-900' : 'text-black border-neutral-300'} pb-24`}>
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl font-thin"
+        className={`my-20 text-center ${!isLight ? 'text-neutral-400 font-thin' : 'text-black font-light'} text-4xl `}
       >
         About
         <span className="text-neutral-500 ml-1">Me</span>
@@ -25,7 +30,7 @@ const About = () => {
         >
           <div className="flex items-center justify-center">
             {/* <img className='rounded-2xl' src={aboutImg} alt='about' /> */}
-            <BsPersonVideo3 className="text-9xl text-neutral-400 text-justify" />
+            <BsPersonVideo3 className={`text-9xl ${!isLight ? 'text-neutral-400' : 'text-black'} text-justify`} />
           </div>
         </motion.div>
         <motion.div
