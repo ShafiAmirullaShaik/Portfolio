@@ -19,7 +19,7 @@ const Hero = () => {
     const { isLight } = useLightDarkMode();
 
     return (
-        <div className={`border-b h-[60vh] ${!isLight ? 'text-neutral-300 border-neutral-900' : 'text-black border-neutral-300'} pb-4 lg:mb-35`}>
+        <div className={`border-b ${!isLight ? 'text-neutral-300 border-neutral-900' : 'text-black border-neutral-300'} pb-10 mb-30 sm:mb-50`}>
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2'>
                     <div className='flex flex-col items-center lg:items-start'>
