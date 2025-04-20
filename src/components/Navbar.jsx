@@ -1,39 +1,52 @@
-import React from 'react'
+import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
-import { FaSquareXTwitter } from 'react-icons/fa6';
-import { FaInstagram } from 'react-icons/fa';
-import { motion } from "framer-motion";
-import { AiFillSun } from "react-icons/ai";
-import { MdDarkMode } from "react-icons/md";
+import { motion } from 'framer-motion';
+import { AiFillSun } from 'react-icons/ai';
+import { MdDarkMode } from 'react-icons/md';
 import { useLightDarkMode } from '../context/LightDarkMode';
 
 const Navbar = () => {
+  const { isLight, toggleTheme } = useLightDarkMode();
 
-    const { isLight, toggleTheme } = useLightDarkMode();
+  return (
+    <motion.nav
+      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0, y: -100 }}
+      transition={{ duration: 0.5 }}
+      className={`mb-20 flex items-center justify-between py-5 px-6 rounded-xl sticky top-0 z-50 shadow-md border 
+        backdrop-blur-md ${
+          isLight
+            ? 'bg-white/40 border-neutral-200 text-black'
+            : 'bg-white/10 border-neutral-800 text-neutral-200'
+        }`}
+    >
+      {/* Logo with hyperlink */}
+      <div className={`flex flex-shrink-0 items-center ${isLight ? 'font-light' : 'font-thin text-neutral-300'}`}>
+        <a href="https://www.linkedin.com/in/shafiamirullashaik/" target="_blank" rel="noopener noreferrer">
+          <p className='mx-2 text-3xl hover:text-purple-500 transition-colors duration-300'>Sa</p>
+        </a>
+      </div>
 
-    return (
-        <motion.nav
-            whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: -100 }}
-            transition={{ duration: 0.5 }}
-            className='mb-20 flex items-center justify-between py-5 text-neutral-200'>
-            <div className={`flex flex-shrink-0 ${!isLight ? 'text-neutral-300 font-thin' : 'text-black font-light'} items-center`}>
-                <p className='mx-2 text-3xl'>Sa</p>
-            </div>
-            <div className={`flex gap-4  items-center ${!isLight ? 'text-neutral-300' : 'text-black'} m-8 justify-center text-2xl`}>
-                <FaLinkedin />
-                <FaGithub />
-                <FaSquareXTwitter />
-                <FaInstagram />
-                {isLight ? (
-                    <MdDarkMode className='cursor-pointer' onClick={toggleTheme} />
-                ) : (
-                    <AiFillSun className='cursor-pointer' onClick={toggleTheme} />
-                )}
-            </div>
-        </motion.nav>
-    )
-}
+      {/* Right-side icons */}
+      <div className={`flex gap-4 items-center justify-center text-2xl ${isLight ? 'text-black' : 'text-neutral-300'}`}>
+        <a href="https://www.linkedin.com/in/shafiamirullashaik/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="hover:text-blue-500 transition-colors duration-300" />
+        </a>
+        <a href="https://www.naukri.com/mnjuser/homepage" target="_blank" rel="noopener noreferrer">
+          <img 
+            src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" 
+            alt="Naukri" 
+            className="h-6 w-auto hover:opacity-80 transition-opacity duration-300"
+          />
+        </a>
+        {isLight ? (
+          <MdDarkMode className='cursor-pointer hover:text-purple-500' onClick={toggleTheme} />
+        ) : (
+          <AiFillSun className='cursor-pointer hover:text-yellow-400' onClick={toggleTheme} />
+        )}
+      </div>
+    </motion.nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
