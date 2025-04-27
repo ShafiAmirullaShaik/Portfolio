@@ -1,9 +1,4 @@
-import project1 from "../assets/projects/Ayur.jpg";
-import project2 from "../assets/projects/Gaming.jpg";
-import project3 from "../assets/projects/Portfolio.jpg";
-import project4 from "../assets/projects/Gemini.jpg";
-import project5 from "../assets/projects/Wiki.jpg";
-import project6 from "../assets/projects/Todo.jpg";
+
 
 export const HERO_CONTENT = `I am a Software Developer with 1 year and 8 months of experience as a Software Developer, specializing in backend development with Python, Django, and FastAPI and frontend technologies like React.js and Tailwind CSS. I have contributed to projects in AI, Warehouse Management Systems (WMS), and automation, developing and optimizing AI-powered solutions.`;
 

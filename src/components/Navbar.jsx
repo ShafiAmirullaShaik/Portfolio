@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      whileInView={{ opacity: 1, y: 0 }}
+      animate={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: -100 }}
       transition={{ duration: 0.5 }}
       className={`mb-20 flex items-center justify-between py-5 px-6 rounded-xl sticky top-0 z-50 shadow-md border 
@@ -23,7 +23,7 @@ const Navbar = () => {
       {/* Logo with hyperlink */}
       <div className={`flex flex-shrink-0 items-center ${isLight ? 'font-light' : 'font-thin text-neutral-300'}`}>
         <a href="https://www.linkedin.com/in/shafiamirullashaik/" target="_blank" rel="noopener noreferrer">
-          <p className='mx-2 text-3xl hover:text-purple-500 transition-colors duration-300'>Sa</p>
+          <p className="mx-2 text-3xl hover:text-purple-500 transition-colors duration-300">Sa</p>
         </a>
       </div>
 
@@ -40,9 +40,9 @@ const Navbar = () => {
           />
         </a>
         {isLight ? (
-          <MdDarkMode className='cursor-pointer hover:text-purple-500' onClick={toggleTheme} />
+          <MdDarkMode className="cursor-pointer hover:text-purple-500" onClick={toggleTheme} />
         ) : (
-          <AiFillSun className='cursor-pointer hover:text-yellow-400' onClick={toggleTheme} />
+          <AiFillSun className="cursor-pointer hover:text-yellow-400" onClick={toggleTheme} />
         )}
       </div>
     </motion.nav>
