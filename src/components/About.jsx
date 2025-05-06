@@ -29,7 +29,7 @@ const About = () => {
           className="w-full"
         >
           <div className="flex justify-center w-full p-10">
-            <p className="my-2 py-6 font-light tracking-tighter text-center w-full font-poppins">
+            <p className="my-2 py-6 font-light tracking-tighter text-justify w-full font-poppins">
               {ABOUT_TEXT}
             </p>
           </div>
