@@ -10,13 +10,13 @@ const About = () => {
   return (
     <div
       id="about"
-      className={`border-b ${!isLight ? 'text-neutral-300 border-neutral-900' : 'text-black border-neutral-300'} pb-24`}
+      className={`border-b ${!isLight ? 'text-neutral-300 border-neutral-900' : 'text-black border-neutral-300'} pb-15`}
     >
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className={`my-20 text-center ${!isLight ? 'text-neutral-400 font-light' : 'text-black font-light'} text-4xl `}
+        className={`mt-20 mb-5 text-center ${!isLight ? 'text-neutral-400 font-light' : 'text-black font-light'} text-4xl `}
       >
         About
         <span className="text-neutral-500 ml-1">Me</span>

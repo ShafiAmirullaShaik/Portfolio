@@ -56,7 +56,68 @@ export const PROJECTS = [
       "Developed a chatbot for restaurants to assist users with queries about the menu, orders, and general interactions using AI and streaming responses for real-time communication.",
     technologies: ["Python", "AI", "Gen AI", "LLMs", "Agentic AI", "Prompt Engineering", "Streamlit"],
   },
+  {
+    title: "NL2SQL Warehouse Operations Chatbot",
+    description:
+      "Implemented a chatbot for warehouse managers to query inventory data using natural language. The chatbot converts user queries into SQL queries, interacts with the database, and leverages LLMs to provide accurate responses based on the queried data.",
+    technologies: ["Python", "MS SQL", "AI", "Gen AI", "LLMs", "Natural Language Processing", "Streamlit"],
+  },
+  {
+    title: "Data Engineering for WMS AI Operations",
+    description:
+      "Designed and developed a comprehensive dataset for Warehouse Management System (WMS) operations to feed AI models. The dataset includes structured data related to inventory, orders, and warehouse processes, enabling effective AI-driven decision-making and process automation.",
+    technologies: ["Python", "SQL", "Data Engineering", "Pandas", "NumPy", "Data Cleaning", "Data Transformation"],
+  },
 ];
+
+
+export const CERTIFICATIONS = [
+  {
+    name: "Introduction to AI Agents",
+    year: "2025"
+  },
+  {
+    name: "Generative AI Fundamentals",
+    year: 2025
+  },
+  {
+    name: "Python",
+    year: 2022
+  },
+  {
+    name: "Node.js",
+    year: 2023
+  },
+  {
+    name: "Introduction to Databases",
+    year: 2023
+  },
+  {
+    name: "MS SQL",
+    year: 2023
+  },
+  {
+    name: "Dynamic Web Application",
+    year: 2022
+  },
+  {
+    name: "Programming Foundations",
+    year: 2022
+  },
+  {
+    name: "Responsive Websites",
+    year: 2022
+  },
+  {
+    name: "Advanced SQL",
+    year: 2022
+  },
+  {
+    name: "Prompt Engineering",
+    year: 2025
+  }
+
+]
 
 
 export const CONTACT = {

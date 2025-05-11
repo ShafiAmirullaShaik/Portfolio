@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import { useLightDarkMode } from './context/LightDarkMode'
+import Certifications from './components/Certifications'
 
 const App = () => {
 
@@ -28,6 +29,7 @@ return (
       <Technologies />
       <Experience />
       <Projects />
+      <Certifications />
       <Contact />
     </div>
   </div>
