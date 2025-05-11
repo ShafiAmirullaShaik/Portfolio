@@ -62,9 +62,7 @@ const Hero = () => {
           transition={{ repeat: Infinity, duration: 1.5 }}
           className="flex justify-center w-full mt-8"
         >
-          <a href="#">
             <FaChevronDown className="text-4xl text-purple-500 hover:text-purple-700 animate-bounce cursor-pointer transition-all duration-300" />
-          </a>
         </motion.div>
       </div>
     </>
