@@ -58,7 +58,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"
+            src="/naukari.png"
             alt="Naukri"
             className="h-6 w-auto hover:opacity-80 transition-opacity duration-300"
           />
