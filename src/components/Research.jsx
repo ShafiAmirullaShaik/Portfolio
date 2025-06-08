@@ -32,6 +32,12 @@ const researchData = [
       "An advanced guide on how to design and optimize prompts for AI models, including role-playing, templates, and error mitigation.",
     pdfLink: "/Prompt-Engineering-A-Comprehensive-Guide.pdf",
   },
+  {
+  title: "Python Interview Q&A: Complete Prep Guide",
+  description:
+    "A detailed question and answer guide for Python interviews, covering Object-Oriented Programming, Pandas, and NumPy with practical examples for data analysis roles.",
+  pdfLink: "https://app.eraser.io/workspace/J1NAylJrCNnPAx9kDk0t?origin=share"
+}
 ];
 
 export default function Research() {

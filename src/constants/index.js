@@ -10,14 +10,14 @@ I am passionate about leveraging AI innovations in real-world applications, cont
 
 export const EXPERIENCES = [
   {
-    year: "Dec 2024 - Feb 2025",
+    year: "Dec 2024 - Mar 2025",
     role: "Freelance Backend Engineer, AI research and development",
     company: "NeurozAI",
     description: `As an AI Research and Development, AI/ML Engineer at Neurozai, I played a key role in developing and optimizing the Live Voice Agent for real-time AI-driven interactions. I implemented streaming agent responses to enhance conversational AI performance and integrated noise reduction and WebRTC VAD to improve speech clarity. Additionally, I fine-tuned LLM responses for accuracy and context awareness, designed dynamic tool selection mechanisms to optimize AI workflows, and conducted LLM evaluations to refine model performance. My contributions focused on enhancing AI-driven voice processing, ensuring seamless, intelligent, and efficient interactions.`,
     technologies: ["Python", "FastAPI", "AI", "Gen AI", "LLM's", "Prompt Engineering", "WebRTC VAD", "Agentic AI"],
   },
   {
-    year: "Jun 2023 - Oct 2024",
+    year: "Jun 2023 - Nov 2024",
     role: "Trainee Consultant",
     company: "eSoftLabs .Inc",
     description: `As a Trainee Consultant at eSoftLabs, I worked on both frontend and backend development, building scalable and user-friendly applications using React.js, Tailwind CSS, and JavaScript. On the backend, I developed robust systems using Python, Django, and FastAPI, integrating Machine Learning (ML), Large Language Models (LLMs), and Generative AI to streamline warehouse operations. My contributions focused on optimizing inventory management and demand forecasting, ensuring smooth and efficient workflows through AI-driven automation and predictive analytics.`,
