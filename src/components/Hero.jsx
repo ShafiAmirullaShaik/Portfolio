@@ -39,7 +39,7 @@ const Hero = () => {
           animate="visible"
           className="bg-gradient-to-r from-pink-300 via-slate-500 font-light to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent text-center w-full"
         >
-          Backend Engineer, AI Research And Developer
+          Backend Engineer And AI Developer
         </motion.span>
 
         <a href="/Shafi_Amirulla_Shaik_Py_AI.pdf" download>

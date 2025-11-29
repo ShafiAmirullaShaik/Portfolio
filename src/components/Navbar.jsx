@@ -32,7 +32,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="\Profile.jpg"
+            src="\Profile-Lin,Nau.jpg"
             className="h-10 w-10 rounded-full transition-transform duration-300 ease-in-out hover:scale-150 origin-center"
             alt="Profile"
           />

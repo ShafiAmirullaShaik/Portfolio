@@ -1,14 +1,39 @@
 
 
-export const HERO_CONTENT = `I am a Backend Engineer, AI Research and developer with 2 years of experience specializing in backend development using Python, Django, and FastAPI, with additional skills in React.js and Tailwind CSS. I have contributed to AI-driven projects across Warehouse Management Systems (WMS), automation, and intelligent chatbot development using RAG architecture and agentic AI flows. My work includes integrating LLMs into production systems, optimizing AI chatbot performance, and building end-to-end solutions like AI transcription tools and customer engagement chatbots. I am passionate about applying AI innovations to real-world problems, with strong problem-solving skills, a full-stack development mindset, and a focus on scalable, user-centric solutions. I have also built and deployed AI agents.`;
+export const HERO_CONTENT = `I’m a Python backend engineer and AI developer with about 2+ years of hands-on experience. Most of my work revolves around building reliable backend systems with Django and FastAPI, and developing AI-powered products using LLMs, RAG pipelines, and agent-based architectures. I’ve worked on real applications like WMS automation, intelligent chatbots, and transcription tools—taking ideas from concept to production. I also enjoy the frontend side when needed, using React and Tailwind to bring features to life. Overall, I like solving real problems, building things that scale, and exploring how AI can make systems smarter and more useful in the real world.`
+;
 
-export const ABOUT_TEXT = `I am a Backend Engineer, AI Research and developer with 2 years of experience, specializing in backend development using Python, Django, and FastAPI, along with frontend technologies like React.js and Tailwind CSS. I’ve contributed to diverse projects across AI, Warehouse Management Systems (WMS), and automation, delivering scalable and efficient solutions. My expertise includes integrating machine learning models into production systems, building intelligent chatbots using Retrieval-Augmented Generation (RAG) architecture, and developing agentic AI applications to enhance autonomous decision-making processes.
+export const ABOUT_TEXT = `I’m a Backend Engineer and AI Developer with 2+ years of experience building reliable and scalable software systems — and turning AI ideas into fully working, production-ready applications. My core strength lies in backend development using Python, Django, FastAPI and AI while also being comfortable working across the stack with React.js and Tailwind CSS to deliver polished, user-focused experiences.
 
-In addition to backend development, I have strong experience with frontend technologies, building responsive and interactive interfaces. I have integrated large language models (LLMs) into business solutions, optimized AI chatbot performance through prompt tuning and model evaluation, and created dynamic tool invocation systems to enhance AI capabilities. I have worked on end-to-end solutions, including AI-powered transcription tools like "AI Scribe" for medical documentation and restaurant chatbots to improve customer engagement.
+Across my journey, I’ve worked on projects in Warehouse Management Systems (WMS), automation, conversational AI, and intelligent tooling — contributing to platforms that solve meaningful, real-world challenges. I’ve built and deployed solutions like RAG-based chatbots, agentic AI systems, dynamic tool invocation pipelines, and LLM-powered automation workflows that improve operational efficiency and decision-making.
 
-I am passionate about leveraging AI innovations in real-world applications, continuously exploring areas such as LLM streaming responses, noise reduction for better speech processing, and multilingual translation systems. With strong problem-solving skills, a collaborative mindset, and a deep passion for AI-driven innovations, I strive to build intelligent, user-centric applications that make a real-world impact.`;
+My work often involves integrating machine learning models, optimizing LLM responses through prompt engineering and evaluation, and designing scalable backend architectures that support AI applications at scale. Some standout projects include AI Scribe, a medical transcription system, and AI-driven restaurant chatbots that improve customer interaction and conversion.
+
+Beyond what I’ve already built, I'm driven by curiosity and constant improvement. I’m currently exploring LLM streaming, multilingual speech processing, advanced RAG workflows, and self-governing AI agents that can perform tasks end-to-end with minimal human guidance.
+
+At the core, I enjoy solving problems, building systems that feel seamless, and exploring how AI can make technology more useful, intuitive, and human. With a balance of development experience, research mindset, and product thinking, I aim to create solutions that perform well today — and are ready for what's next.`;
 
 export const EXPERIENCES = [
+  {
+  year: "Aug 2025 - Present",
+  role: "Prompt Engineer & AI Developer",
+  company: "CBRE (via TechStar)",
+  description: `Currently working as a Prompt Engineer on the CBRE client project, focusing on automating and improving commercial real estate lease abstraction using AI-driven workflows. My primary responsibility is to research, design, and optimize LLM-based extraction prompts for key lease and amendment fields (such as leased area, lease commencement, rental terms, etc.). I analyze business logic requirements, refine field-level instructions, and create scalable prompt templates aligned with domain context.
+
+  I rigorously validate prompt performance using Postman and large document datasets, iteratively tuning prompts based on extraction accuracy, edge cases, and failure analysis. Once validated, prompts are deployed for automated large-scale processing and accuracy tracking.
+
+  Alongside prompt engineering, I contribute to backend enhancements, automation scripts, and workflow optimization using Python. My work ensures improved data accuracy, reduced manual effort, and streamlined document processing across the enterprise AI pipeline.`,
+  technologies: [
+    "Python", 
+    "API", 
+    "Postman", 
+    "Prompt Engineering", 
+    "Agentic AI", 
+    "Gen AI", 
+    "RAG", 
+    "LLMs"
+  ],
+  },
   {
     year: "Dec 2024 - Mar 2025",
     role: "Freelance Backend Engineer, AI research and development",
@@ -26,6 +51,39 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+  title: "Lease Abstraction Automation",
+  description: `
+  Worked on automating commercial real estate lease abstraction using AI-powered data extraction and large language models. The system identifies and extracts critical lease metadata (such as leased area, lease commencement date, rent terms, renewal clauses, etc.) with high accuracy.
+
+  I designed and optimized domain-specific prompts aligned with business logic requirements, ran iterative evaluations on real-world lease and amendment documents, and fine-tuned extraction workflows based on model accuracy and failure case analysis. The outcome significantly reduced manual abstraction time and improved processing efficiency across large document volumes.`,
+  technologies: [
+    "Python",
+    "Prompt Engineering",
+    "LLMs",
+    "Gen AI",
+    "Postman",
+    "RAG"
+  ]
+  },
+  {
+    title: "Lease Intelligent Agent",
+    description: `
+    Built an intelligent agent framework to streamline and accelerate the lease abstraction prompt development workflow. Instead of creating or modifying prompts manually for each Lease of Business (LOB) field, this agent automatically understands field definitions, expected output formats, and underlying domain rules.
+
+    I consolidated existing knowledge sources — including field glossaries, LAE definitions, abstraction standards, and legacy prompt templates — into a structured reference PDF and designed a dynamic prompt-generation skeleton. Using this, the agent auto-generates context-aware prompts for any field across multiple LOBs with minimal setup.
+
+    This solution reduced repetitive effort, improved consistency in extraction quality, and introduced scalability to future LLM-based document automation use cases.`,
+    technologies: [
+      "Python",
+      "Agentic AI",
+      "Prompt Engineering",
+      "Gen AI",
+      "RAG",
+      "LLMs",
+      "Knowledge Embedding"
+    ]
+  },
   {
     title: "Txenia",
     description:
