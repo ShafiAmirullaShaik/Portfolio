@@ -42,7 +42,7 @@ const Hero = () => {
           Backend Engineer And AI Developer
         </motion.span>
 
-        <a href="/Shafi_Amirulla_Shaik_Py_AI.pdf" download>
+        <a href="/Shafi Amirulla Shaik Resume.pdf" download>
           <motion.button
             variants={container(1.5)}
             initial="hidden"
