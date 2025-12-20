@@ -3,20 +3,18 @@
 export const HERO_CONTENT = `I’m a Python backend engineer and AI developer with about 2+ years of hands-on experience. Most of my work revolves around building reliable backend systems with Django and FastAPI, and developing AI-powered products using LLMs, RAG pipelines, and agent-based architectures. I’ve worked on real applications like WMS automation, intelligent chatbots, and transcription tools—taking ideas from concept to production. I also enjoy the frontend side when needed, using React and Tailwind to bring features to life. Overall, I like solving real problems, building things that scale, and exploring how AI can make systems smarter and more useful in the real world.`
 ;
 
-export const ABOUT_TEXT = `I’m a Backend Engineer and AI Developer with 2+ years of experience building reliable and scalable software systems — and turning AI ideas into fully working, production-ready applications. My core strength lies in backend development using Python, Django, FastAPI and AI while also being comfortable working across the stack with React.js and Tailwind CSS to deliver polished, user-focused experiences.
+export const ABOUT_TEXT = `I’m an AI/ML & Python Engineer with 2+ years of experience building scalable, production-grade AI systems that power real business outcomes. Currently, I work with CBRE via TechStar Group, developing enterprise Generative AI solutions for commercial real estate at scale.
 
-Across my journey, I’ve worked on projects in Warehouse Management Systems (WMS), automation, conversational AI, and intelligent tooling — contributing to platforms that solve meaningful, real-world challenges. I’ve built and deployed solutions like RAG-based chatbots, agentic AI systems, dynamic tool invocation pipelines, and LLM-powered automation workflows that improve operational efficiency and decision-making.
+My expertise spans Python, Django, FastAPI, and advanced AI architectures including LLMs, Prompt Engineering, RAG, Agentic AI, NLP, and Text-to-SQL (NL2SQL). I’ve led contributions to a Lease Abstraction Commercial AI platform, Text-to-SQL pipelines for real estate analytics, WMS AI chatbots, an Agentic IVR medical assistant, AI healthcare scribes, and a Restaurant Chatbot (POC).
 
-My work often involves integrating machine learning models, optimizing LLM responses through prompt engineering and evaluation, and designing scalable backend architectures that support AI applications at scale. Some standout projects include AI Scribe, a medical transcription system, and AI-driven restaurant chatbots that improve customer interaction and conversion.
-
-Beyond what I’ve already built, I'm driven by curiosity and constant improvement. I’m currently exploring LLM streaming, multilingual speech processing, advanced RAG workflows, and self-governing AI agents that can perform tasks end-to-end with minimal human guidance.
+I specialize in turning ambiguous problems into high-impact, reliable AI systems—with a strong focus on accuracy, scalability, and responsible AI. I thrive at the intersection of engineering rigor and applied intelligence.
 
 At the core, I enjoy solving problems, building systems that feel seamless, and exploring how AI can make technology more useful, intuitive, and human. With a balance of development experience, research mindset, and product thinking, I aim to create solutions that perform well today — and are ready for what's next.`;
 
 export const EXPERIENCES = [
   {
   year: "Aug 2025 - Present",
-  role: "Prompt Engineer & AI Developer",
+  role: "Prompt Engineer",
   company: "CBRE (via TechStar)",
   description: `Currently working as a Prompt Engineer on the CBRE client project, focusing on automating and improving commercial real estate lease abstraction using AI-driven workflows. My primary responsibility is to research, design, and optimize LLM-based extraction prompts for key lease and amendment fields (such as leased area, lease commencement, rental terms, etc.). I analyze business logic requirements, refine field-level instructions, and create scalable prompt templates aligned with domain context.
 
